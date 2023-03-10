@@ -15,6 +15,22 @@ public abstract class Vehicle {
         this.year = year;
     }
 
+    public String getBrand() {
+        return brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
     public float getFuelConsumption() {
         return fuelConsumption;
     }
@@ -34,6 +50,4 @@ public abstract class Vehicle {
 
         return super.toString();
     }
-
-
 }

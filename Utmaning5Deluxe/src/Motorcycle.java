@@ -6,6 +6,10 @@ public class Motorcycle extends Vehicle{
         this.windShield = windShield;
     }
 
+    public boolean isWindShield() {
+        return windShield;
+    }
+
     @Override
     public float getFuelConsumption() {
         return super.getFuelConsumption();

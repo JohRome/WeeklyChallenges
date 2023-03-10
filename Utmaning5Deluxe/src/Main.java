@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Objects;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -7,6 +11,21 @@ public class Main {
         System.out.println(car);
         System.out.println(motorcycle);
         System.out.println(truck);
+        System.out.println("\n");
+
+
+        var vehicleList = new DetailedVehicleList();
+        vehicleList.addVehicleToList(new Car("Toyota", "Camry", 7.50f, 220, 2018, 4));
+        vehicleList.addVehicleToList(new Motorcycle("Harley-Davidson", "Sportster", 5.0f, 200, 2019, false));
+        vehicleList.addVehicleToList(new Truck("Scania", "R450", 35.0f, 90, 2015, 2, 40));
+
+
+        vehicleList.printVehicleList();
+
+
+
+
+
 
 
     }

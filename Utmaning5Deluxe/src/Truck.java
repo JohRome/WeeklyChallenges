@@ -8,6 +8,14 @@ public class Truck extends Vehicle{
         this.capacity = capacity;
     }
 
+    public int getDoors() {
+        return doors;
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
     @Override
     public float getFuelConsumption() {
         return super.getFuelConsumption();
